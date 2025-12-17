@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Animal;
 use Illuminate\Http\Request;
 
 class IndexController extends Controller
 {
     public static function index()
     {
-        return view('welcome');
+        $animals = Animal::all();
+        return view('welcome', ['animals' => $animals]);
     }
 }

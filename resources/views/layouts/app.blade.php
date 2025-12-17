@@ -10,12 +10,14 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body>
+<body class="bg-gray-100 text-gray-800 min-h-screen flex flex-col">
 
     @include('partials.header')
 
-    <main>
-        @yield('content')
+    <main class="flex-grow">
+        <div class="max-w-6xl mx-auto px-4 py-10">
+            @yield('content')
+        </div>
     </main>
 
     @include('partials.footer')
