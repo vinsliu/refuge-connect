@@ -1,0 +1,64 @@
+.animal-details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+@media (min-width: 768px) {
+    .animal-details-container {
+        flex-direction: row;
+    }
+}
+
+.animal-image-wrapper {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .animal-image-wrapper {
+        width: 33.3333%;
+    }
+}
+
+.animal-image-box {
+    overflow: hidden;
+    background-color: #f3f4f6;
+}
+
+.animal-image-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.animal-no-image {
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+}
+
+.animal-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.125rem;
+    color: #1f2937;
+}
+
+@media (min-width: 768px) {
+    .animal-info {
+        width: 66.6667%;
+    }
+}
+
+.animal-info p span {
+    font-weight: 600;
+}
+
+.animal-info p {
+    line-height: 1.6;
+    margin: 0;
+}
