@@ -13,7 +13,7 @@
         <div class="animal-image-box">
             @if ($animal->photo)
             <img
-                src="{{ asset('storage/' . $animal->photo) }}"
+                src="{{ asset($animal->photo) }}"
                 alt="{{ $animal->name }}">
             @endif
         </div>
