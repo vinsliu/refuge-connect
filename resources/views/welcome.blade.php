@@ -7,7 +7,7 @@
 
 @section('content')
 
-<h2 class="page-title">Nos animaux</h2>
+<h1 class="page-title">Nos animaux</h1>
 
 @if (session('success'))
 <div class="alert success">

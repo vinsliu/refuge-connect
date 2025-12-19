@@ -5,6 +5,6 @@
 
 @section('content')
 
-<h2 class="page-title">Page non trouvée</h2>
+<h1 class="page-title">Page non trouvée</h1>
 
 @endsection

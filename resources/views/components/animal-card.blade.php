@@ -12,7 +12,7 @@
         </div>
 
         <div class="animal-card-info">
-            <h3 class="animal-card-name">{{ $animal->name }}</h3>
+            <h2 class="animal-card-name">{{ $animal->name }}</h2>
 
             <p><span>Espèce :</span> {{ $animal->species }}</p>
             <p><span>Âge :</span> {{ $animal->age }} ans</p>

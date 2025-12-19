@@ -6,7 +6,7 @@
 
 @section('content')
 
-<h2 class="page-title">{{ $animal->name }}</h2>
+<h1 class="page-title">{{ $animal->name }}</h1>
 
 <div class="animal-details-container">
 
