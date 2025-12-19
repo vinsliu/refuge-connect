@@ -46,9 +46,6 @@
 
 .animal-info p {
     margin: 0;
+    font-size: 28px;
     line-height: 1.6;
-}
-
-.animal-info p span {
-    font-weight: 600;
 }

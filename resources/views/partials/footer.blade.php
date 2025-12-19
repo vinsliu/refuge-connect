@@ -2,7 +2,5 @@
 @vite(['resources/css/partials/footer.css'])
 
 <footer>
-    <div class="footer-container">
-        © {{ date('Y') }} — Refuge Connect.
-    </div>
+    <p>© {{ date('Y') }} — Refuge Connect.</p>
 </footer>

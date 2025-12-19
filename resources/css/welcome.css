@@ -19,7 +19,7 @@
 .animal-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 1rem;
 }
 
 @media (min-width: 640px) {
