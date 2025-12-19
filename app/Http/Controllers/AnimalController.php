@@ -18,28 +18,28 @@ class AnimalController extends Controller
                 "species" => "Chien",
                 "age" => 5,
                 "description" => "Une labrador joueuse et affectueuse qui adore la compagnie.",
-                "photo" => "animals/Bella.png",
+                "photo" => "images/Bella.png",
             ],
             [
                 "name" => "Luna",
                 "species" => "Chat",
                 "age" => 3,
                 "description" => "Une chatte calme et câline qui aime les endroits tranquilles.",
-                "photo" => "animals/Luna.png",
+                "photo" => "images/Luna.png",
             ],
             [
                 "name" => "Max",
                 "species" => "Chien",
                 "age" => 2,
                 "description" => "Un jeune chiot plein d’énergie qui adore courir et jouer dehors.",
-                "photo" => "animals/Max.png",
+                "photo" => "images/Max.png",
             ],
             [
                 "name" => "Coquillette",
                 "species" => "Chien",
                 "age" => 3,
                 "description" => "Une Shiba Inu vive et joyeuse, toujours prête à jouer et à explorer. Coquillette est curieuse, intelligente et très expressive, avec un petit caractère indépendant mais plein de tendresse pour ceux qu’elle aime.",
-                "photo" => "animals/Coquillette.png",
+                "photo" => "images/Coquillette.png",
             ],
         ];
 
