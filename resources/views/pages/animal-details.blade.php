@@ -1,5 +1,6 @@
-<!-- resources/views/pages/animal-details.blade.php -->
 @extends('layouts.app')
+
+@vite(['resources/css/animal-detail.css'])
 
 @section('title', $animal->name)
 
@@ -9,14 +10,8 @@
 
 <div class="animal-details-container">
 
-    <div class="animal-image-wrapper">
-        <div class="animal-image-box">
-            @if ($animal->photo)
-            <img
-                src="{{ asset($animal->photo) }}"
-                alt="{{ $animal->name }}">
-            @endif
-        </div>
+    <div class="animal-image-box">
+        <img src="{{ asset($animal->photo) }}" alt="{{ $animal->name }}">
     </div>
 
     <div class="animal-info">

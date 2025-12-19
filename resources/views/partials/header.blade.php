@@ -1,4 +1,6 @@
 <!-- resources/views/partials/header.blade.php -->
+@vite(['resources/css/partials/header.css'])
+
 <header>
     <div class="header-container">
 

@@ -1,6 +1,8 @@
 <!-- resources/views/welcome.blade.php -->
 @extends('layouts.app')
 
+@vite(['resources/css/welcome.css'])
+
 @section('title', 'Accueil')
 
 @section('content')
@@ -21,9 +23,6 @@
 
 <div class="animal-grid">
     @foreach ($animals as $animal)
-    @if ($loop->last)
-    @break
-    @endif
     <x-animal-card :animal="$animal" />
     @endforeach
 </div>

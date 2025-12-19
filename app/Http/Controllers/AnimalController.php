@@ -13,27 +13,27 @@ class AnimalController extends Controller
     public function create()
     {
         $animals = [
-            [
-                "name" => "Bella",
-                "species" => "Chien",
-                "age" => 5,
-                "description" => "Une labrador joueuse et affectueuse qui adore la compagnie.",
-                "photo" => "images/Bella.png",
-            ],
-            [
-                "name" => "Luna",
-                "species" => "Chat",
-                "age" => 3,
-                "description" => "Une chatte calme et câline qui aime les endroits tranquilles.",
-                "photo" => "images/Luna.png",
-            ],
-            [
-                "name" => "Max",
-                "species" => "Chien",
-                "age" => 2,
-                "description" => "Un jeune chiot plein d’énergie qui adore courir et jouer dehors.",
-                "photo" => "images/Max.png",
-            ],
+            // [
+            //     "name" => "Bella",
+            //     "species" => "Chien",
+            //     "age" => 5,
+            //     "description" => "Une labrador joueuse et affectueuse qui adore la compagnie.",
+            //     "photo" => "images/Bella.png",
+            // ],
+            // [
+            //     "name" => "Luna",
+            //     "species" => "Chat",
+            //     "age" => 3,
+            //     "description" => "Une chatte calme et câline qui aime les endroits tranquilles.",
+            //     "photo" => "images/Luna.png",
+            // ],
+            // [
+            //     "name" => "Max",
+            //     "species" => "Chien",
+            //     "age" => 2,
+            //     "description" => "Un jeune chiot plein d’énergie qui adore courir et jouer dehors.",
+            //     "photo" => "images/Max.png",
+            // ],
             [
                 "name" => "Coquillette",
                 "species" => "Chien",

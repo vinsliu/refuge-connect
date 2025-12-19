@@ -7,15 +7,7 @@
     <link rel="shortcut icon" href="{{ asset('favicon.png') }}" type="image/x-icon">
     <title>@yield('title')</title>
 
-    @vite([
-    'resources/css/app.css',
-    'resources/css/partials/header.css',
-    'resources/css/partials/footer.css',
-    'resources/css/welcome.css',
-    'resources/css/animal-detail.css',
-    'resources/css/components/animal-card.css',
-    'resources/js/app.js'
-    ])
+    @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
 
 <body class="app-body">
